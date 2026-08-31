@@ -10,7 +10,7 @@
             padding: 0;
             width: 100%;
             height: 100%;
-            background-color: #111;
+            background-color: #000;
             overflow: hidden;
             display: flex;
             justify-content: center;
@@ -19,6 +19,8 @@
         #player {
             width: 100%;
             height: 100%;
+            max-width: 100vw;
+            max-height: 100vh;
         }
     </style>
 </head>
@@ -33,6 +35,8 @@
             allowScriptAccess: true,
             autoplay: "on",
             unmuteOverlay: "hidden",
+            scale: "showAll",
+            letterbox: "on",
             polyfills: true
         };
 
